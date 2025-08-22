@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 21:36:03.897729] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 4000, M = 4000, NNZ = 16000000, Density = 1.0, Unique frames visited = 250
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 16000000 | mem_ext_hit = 809302, mem_int_hit = 15190698 | hit_rate = 0.949418625, miss_rate = 0.050581375
+print_stats ||| Allocs_called = 809302, Deallocs_called = 202294 | Average Page Utilization = 0.92180778125, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 16000000 | mem_ext_hits = 809302, mem_int_hits = 15190698 | L1 hits = 15190698 | hit_rate = 0.949418625, miss_rate = 0.050581375
+workers_test ||| Average Page Utilization = 0.92180778125, Peak Average Page Utilization = 1.0 | Cycles = [21665114]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 16000000 | mem_ext_hit = 1000000, mem_int_hit = 15000000 | hit_rate = 0.9375, miss_rate = 0.0625
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.874950875, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 16000000 | mem_ext_hits = 1000000, mem_int_hits = 15000000 | L1 hits = 15000000 | hit_rate = 0.9375, miss_rate = 0.0625
+workers_test ||| Average Page Utilization = 0.874950875, Peak Average Page Utilization = 1.0 | Cycles = [23000000]
+workers_test ||| ---------- END ---------- 

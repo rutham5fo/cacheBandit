@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 21:04:07.666438] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 3000, M = 3000, NNZ = 9000000, Density = 1.0, Unique frames visited = 188
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 9000000 | mem_ext_hit = 336631, mem_int_hit = 8663369 | hit_rate = 0.9625965555555556, miss_rate = 0.03740344444444445
+print_stats ||| Allocs_called = 336631, Deallocs_called = 84126 | Average Page Utilization = 0.9218262777777778, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 9000000 | mem_ext_hits = 336631, mem_int_hits = 8663369 | L1 hits = 8663369 | hit_rate = 0.9625965555555556, miss_rate = 0.03740344444444445
+workers_test ||| Average Page Utilization = 0.9218262777777778, Peak Average Page Utilization = 1.0 | Cycles = [11356417]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 9000000 | mem_ext_hit = 564000, mem_int_hit = 8436000 | hit_rate = 0.9373333333333334, miss_rate = 0.06266666666666666
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8749126666666667, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 9000000 | mem_ext_hits = 564000, mem_int_hits = 8436000 | L1 hits = 8436000 | hit_rate = 0.9373333333333334, miss_rate = 0.06266666666666666
+workers_test ||| Average Page Utilization = 0.8749126666666667, Peak Average Page Utilization = 1.0 | Cycles = [12948000]
+workers_test ||| ---------- END ---------- 

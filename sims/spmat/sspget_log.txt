@@ -1,0 +1,28 @@
+main ||| Matrix Deets[0]: Name = bcsstk10, ID = 32, Group = HB, Problem Kind = structural problem | Rows = 1086, Cols = 1086, NNZ = 22070, Density = 0.018712968332943305 | DataType = real 
+
+main ||| Matrix Deets[1]: Name = bcsstk13, ID = 35, Group = HB, Problem Kind = computational fluid dynamics problem | Rows = 2003, Cols = 2003, NNZ = 83883, Density = 0.020907979019987245 | DataType = real 
+
+main ||| Matrix Deets[2]: Name = bcsstk17, ID = 39, Group = HB, Problem Kind = structural problem | Rows = 10974, Cols = 10974, NNZ = 428650, Density = 0.0035593682023042418 | DataType = real 
+
+main ||| Matrix Deets[3]: Name = c8_mat11, ID = 2000, Group = JGD_Groebner, Problem Kind = combinatorial problem | Rows = 4562, Cols = 5761, NNZ = 2462970, Density = 0.09371432163283917 | DataType = real 
+
+main ||| Matrix Deets[4]: Name = cq9, ID = 1700, Group = Meszaros, Problem Kind = linear programming problem | Rows = 9278, Cols = 21534, NNZ = 96653, Density = 0.00048376702439189244 | DataType = real 
+
+main ||| Matrix Deets[5]: Name = fv1, ID = 887, Group = Norris, Problem Kind = 2D/3D problem | Rows = 9604, Cols = 9604, NNZ = 85264, Density = 0.0009244031146955463 | DataType = real 
+
+main ||| Matrix Deets[6]: Name = kl02, ID = 1716, Group = Meszaros, Problem Kind = linear programming problem | Rows = 71, Cols = 36699, NNZ = 212536, Density = 0.08156802061997315 | DataType = binary 
+
+main ||| Matrix Deets[7]: Name = lhr34c, ID = 749, Group = Mallya, Problem Kind = chemical process simulation problem | Rows = 35152, Cols = 35152, NNZ = 764014, Density = 0.0006183028347506603 | DataType = real 
+
+main ||| Matrix Deets[8]: Name = pdb1HYS, ID = 2373, Group = Williams, Problem Kind = weighted undirected graph | Rows = 36417, Cols = 36417, NNZ = 4344765, Density = 0.003276106104554356 | DataType = real 
+
+main ||| Matrix Deets[9]: Name = psmigr_1, ID = 235, Group = HB, Problem Kind = economic problem | Rows = 3140, Cols = 3140, NNZ = 543160, Density = 0.055089455961702304 | DataType = real 
+
+main ||| Matrix Deets[10]: Name = ca-HepTh, ID = 2299, Group = SNAP, Problem Kind = undirected graph | Rows = 9877, Cols = 9877, NNZ = 51971, Density = 0.0005327346755904551 | DataType = binary 
+
+main ||| Matrix Deets[11]: Name = p2p-Gnutella04, ID = 2308, Group = SNAP, Problem Kind = directed graph | Rows = 10879, Cols = 10879, NNZ = 39994, Density = 0.0003379223282393842 | DataType = binary 
+
+main ||| Matrix Deets[12]: Name = as-735, ID = 2320, Group = SNAP, Problem Kind = undirected graph sequence | Rows = 7716, Cols = 7716, NNZ = 26467, Density = 0.00044454965693740007 | DataType = binary 
+
+main ||| Matrix Deets[13]: Name = amazon0312, ID = 2305, Group = SNAP, Problem Kind = directed graph | Rows = 400727, Cols = 400727, NNZ = 3200440, Density = 1.9930237750099465e-05 | DataType = binary 
+

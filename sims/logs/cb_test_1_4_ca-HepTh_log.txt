@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 20:48:46.957875] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 9877, M = 9877, NNZ = 51971, Density = 0.0005327346755904551, Unique frames visited = 618
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 51971 | mem_ext_hit = 38582, mem_int_hit = 13389 | hit_rate = 0.2576244444016856, miss_rate = 0.7423755555983145
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8734564709164726, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 51971 | mem_ext_hits = 38582, mem_int_hits = 13389 | L1 hits = 13389 | hit_rate = 0.2576244444016856, miss_rate = 0.7423755555983145
+workers_test ||| Average Page Utilization = 0.8734564709164726, Peak Average Page Utilization = 1.0 | Cycles = [322045]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 51971 | mem_ext_hit = 38582, mem_int_hit = 13389 | hit_rate = 0.2576244444016856, miss_rate = 0.7423755555983145
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8734564709164726, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 51971 | mem_ext_hits = 38582, mem_int_hits = 13389 | L1 hits = 13389 | hit_rate = 0.2576244444016856, miss_rate = 0.7423755555983145
+workers_test ||| Average Page Utilization = 0.8734564709164726, Peak Average Page Utilization = 1.0 | Cycles = [322045]
+workers_test ||| ---------- END ---------- 

@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 20:48:48.972962] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 10879, M = 10879, NNZ = 39994, Density = 0.0003379223282393842, Unique frames visited = 680
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 39994 | mem_ext_hit = 19484, mem_int_hit = 20510 | hit_rate = 0.5128269240386057, miss_rate = 0.4871730759613942
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8613674863729559, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 39994 | mem_ext_hits = 19484, mem_int_hits = 20510 | L1 hits = 20510 | hit_rate = 0.5128269240386057, miss_rate = 0.4871730759613942
+workers_test ||| Average Page Utilization = 0.8613674863729559, Peak Average Page Utilization = 1.0 | Cycles = [176382]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 39994 | mem_ext_hit = 19484, mem_int_hit = 20510 | hit_rate = 0.5128269240386057, miss_rate = 0.4871730759613942
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8613674863729559, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 39994 | mem_ext_hits = 19484, mem_int_hits = 20510 | L1 hits = 20510 | hit_rate = 0.5128269240386057, miss_rate = 0.4871730759613942
+workers_test ||| Average Page Utilization = 0.8613674863729559, Peak Average Page Utilization = 1.0 | Cycles = [176382]
+workers_test ||| ---------- END ---------- 

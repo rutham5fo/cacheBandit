@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 20:33:12.537162] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 4562, M = 5761, NNZ = 2462970, Density = 0.09371432163283917, Unique frames visited = 361
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 2462970 | mem_ext_hit = 132937, mem_int_hit = 2330033 | hit_rate = 0.9460257331595594, miss_rate = 0.053974266840440606
+print_stats ||| Allocs_called = 132937, Deallocs_called = 33203 | Average Page Utilization = 0.9083070946864964, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 2462970 | mem_ext_hits = 132937, mem_int_hits = 2330033 | L1 hits = 2330033 | hit_rate = 0.9460257331595594, miss_rate = 0.053974266840440606
+workers_test ||| Average Page Utilization = 0.9083070946864964, Peak Average Page Utilization = 1.0 | Cycles = [3393529]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 2462970 | mem_ext_hit = 166638, mem_int_hit = 2296332 | hit_rate = 0.9323426594721007, miss_rate = 0.06765734052789925
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.8506303492328368, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 2462970 | mem_ext_hits = 166638, mem_int_hits = 2296332 | L1 hits = 2296332 | hit_rate = 0.9323426594721007, miss_rate = 0.06765734052789925
+workers_test ||| Average Page Utilization = 0.8506303492328368, Peak Average Page Utilization = 1.0 | Cycles = [3629436]
+workers_test ||| ---------- END ---------- 

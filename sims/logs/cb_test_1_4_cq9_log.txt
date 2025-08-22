@@ -1,0 +1,26 @@
+main ||| ------ CONFIG [2025-08-21 20:42:24.964051] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 9278, M = 21534, NNZ = 96653, Density = 0.00048376702439189244, Unique frames visited = 1346
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 96653 | mem_ext_hit = 32871, mem_int_hit = 63782 | hit_rate = 0.6599070903127684, miss_rate = 0.34009290968723166
+print_stats ||| Allocs_called = 32867, Deallocs_called = 8185 | Average Page Utilization = 0.9207635820926406, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 96653 | mem_ext_hits = 32871, mem_int_hits = 63782 | L1 hits = 63782 | hit_rate = 0.6599070903127684, miss_rate = 0.34009290968723166
+workers_test ||| Average Page Utilization = 0.9207635820926406, Peak Average Page Utilization = 1.0 | Cycles = [326750]
+workers_test ||| ---------- END ---------- 
+
+compare_test ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 96653 | mem_ext_hit = 37699, mem_int_hit = 58954 | hit_rate = 0.6099552005628381, miss_rate = 0.3900447994371618
+print_stats ||| Allocs_called = 128, Deallocs_called = 1 | Average Page Utilization = 0.872361372642339, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 96653 | mem_ext_hits = 37699, mem_int_hits = 58954 | L1 hits = 58954 | hit_rate = 0.6099552005628381, miss_rate = 0.3900447994371618
+workers_test ||| Average Page Utilization = 0.872361372642339, Peak Average Page Utilization = 1.0 | Cycles = [360546]
+workers_test ||| ---------- END ---------- 
