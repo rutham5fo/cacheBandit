@@ -15,6 +15,7 @@ bytes_per_word = 8
 bytes_per_line = 128
 shmem_line = int(bytes_per_line/bytes_per_word)     # No. of elements/words per cache line
 
+thread_count = 4
 
 def load_matfile (src_path, file_name, rows, cols, dtype=np.int8):
     # Loader params
@@ -48,7 +49,7 @@ def insert_uframe(uframe, frame):
         #print (f'{insert_uframe.__name__} ||| Inserting new frame = {frame} into list', flush=True)
         uframe.append(frame)
 
-def gen_strm (strm_ctxt_fname, matRandom='random', matName='Matrix name', matPath='Path to matrix', matRows=10, matCols=10, matDensity=1.0, matDtype=np.int8, en_uniqueFrames=1):
+def gen_strm (strm_ctxt_fname, interleaved_ctxt_fname, matRandom='random', matName='Matrix name', matPath='Path to matrix', matRows=10, matCols=10, matDensity=1.0, matDtype=np.int8, en_uniqueFrames=1):
 
     K = matRows
     M = matCols
@@ -65,6 +66,8 @@ def gen_strm (strm_ctxt_fname, matRandom='random', matName='Matrix name', matPat
     #Construct row-wise context and stream
     unique_frames = []
     streamA = []
+    thread_ctxt = [[] for _ in range(thread_count)]
+    thread_sel = 0
     for r in range(matA.shape[0]):
         for ind in range(matA.indptr[r], matA.indptr[r+1]):
             col = matA.indices[ind]
@@ -74,7 +77,27 @@ def gen_strm (strm_ctxt_fname, matRandom='random', matName='Matrix name', matPat
             if (en_uniqueFrames):
                 insert_uframe(unique_frames, frame)
             streamA.append(col)
+            thread_ctxt[thread_sel].append(col)
+        thread_sel = 0 if (thread_sel == thread_count-1) else thread_sel+1
     #print (f'{gen_strm.__name__} ||| streamA = {streamA}| len = {len(streamA)}')
+    #print (f'{gen_strm.__name__} ||| thread_ctxt = {thread_ctxt}')
+
+    # Generate Interleaved context
+    interleaved_ctxt = []
+    interleaved_ctxt_tid = []
+    thread_sel = 0
+    elem_sel = [0 for _ in range(thread_count)]
+    elem_iter = 0
+    while (elem_iter < matA.nnz):
+        #print (f'{gen_mat_random.__name__} ||| inter_itr = {elem_iter}, thread_sel = {thread_sel}, elem_sel = {elem_sel[thread_sel]}, ctxt_len = {len(thread_context[thread_sel])}')
+        if (elem_sel[thread_sel] < len(thread_ctxt[thread_sel])):
+            interleaved_ctxt.append(thread_ctxt[thread_sel][elem_sel[thread_sel]])
+            interleaved_ctxt_tid.append(thread_sel)
+            elem_sel[thread_sel] += 1
+            elem_iter += 1
+        thread_sel = 0 if (thread_sel == thread_count-1) else thread_sel+1
+    #print (f'{gen_mat_random.__name__} ||| interleaved_ctxt = {interleaved_ctxt}, len = {len(interleaved_ctxt)}')
+    #print (f'{gen_mat_random.__name__} ||| interleaved_ctxt_tid = {interleaved_ctxt_tid}, len = {len(interleaved_ctxt_tid)}')
 
     # Create matrix header
     matA_header = [K, M, matA.nnz, density, len(unique_frames)]
@@ -84,6 +107,11 @@ def gen_strm (strm_ctxt_fname, matRandom='random', matName='Matrix name', matPat
         writer = csv.writer(wrf, quoting=csv.QUOTE_NONE)
         writer.writerow(matA_header)
         writer.writerow(streamA)
+    with open (interleaved_ctxt_fname, 'w', newline='') as wrf:
+        writer = csv.writer(wrf, quoting=csv.QUOTE_NONE)
+        writer.writerow(matA_header)
+        writer.writerow(interleaved_ctxt)
+        writer.writerow(interleaved_ctxt_tid)
 
     return (matA.nnz, K, M, density, len(unique_frames))
 
@@ -95,7 +123,6 @@ def main():
     # Run parameters
     run_name = 'cb_test'
     ctxt_path = '.\\context\\'
-    strmA_fname = ctxt_path + 'streamA_' + run_name + '.csv'
     gen_random = 1
 
     # Load matrix path
@@ -121,8 +148,9 @@ def main():
     for id, elem in enumerate(list(zip(matName, matRows, matCols, matEnFrames))):
         mname, mrow, mcol, menFrames = elem
         strmA_fname = ctxt_path + 'streamA_' + run_name + '_' + mname + '.csv'
+        interleavedA_fname = ctxt_path + 'interleavedA_' + run_name + '_' + mname + '.csv'
         mdensity = matDensity[id] if (gen_random) else 0
-        matA_nnz, matA_rows, matA_cols, den, unique_frames = gen_strm(strmA_fname, matRandom=gen_random, matName=mname, matPath=matPath, matRows=mrow, matCols=mcol, matDensity=mdensity, matDtype=matDtype, en_uniqueFrames=menFrames)
+        matA_nnz, matA_rows, matA_cols, den, unique_frames = gen_strm(strmA_fname, interleavedA_fname, matRandom=gen_random, matName=mname, matPath=matPath, matRows=mrow, matCols=mcol, matDensity=mdensity, matDtype=matDtype, en_uniqueFrames=menFrames)
         print (f'{main.__name__} ||| Matrix A dim K = {matA_rows}, M = {matA_cols}, NNZ = {matA_nnz}, Density = {den} | Unique frames visited = {unique_frames}')
 
 if __name__ == "__main__":
