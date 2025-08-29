@@ -1,0 +1,8 @@
+main ||| Matrix bcsstk17 Pearson correlation = 0.9945825840840153
+main ||| Matrix shock-9 Pearson correlation = 0.9993813743499042
+main ||| Matrix fv1 Pearson correlation = 0.9993932703928983
+main ||| Matrix airfoil1 Pearson correlation = 0.976566860798714
+main ||| Matrix diag Pearson correlation = 0.9269775068855222
+main ||| Matrix big_dual Pearson correlation = 0.6512639535900527
+main ||| Matrix Chem97ZtZ Pearson correlation = -0.7545392116830519
+main ||| Matrix crack Pearson correlation = -0.5903128210631561

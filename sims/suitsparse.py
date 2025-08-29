@@ -35,11 +35,13 @@ def plot_spmat (src, name, rows, cols, dpi=300):
 
 def main ():
 
-    matName = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312']
+    #matName = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312']
+    #matName = ['airfoil1', 'diag', 'crack', 'shock-9']
+    matName = ['sinc15']
     matDest = '.\\spmat\\'
     matFormat = 'MAT'
 
-    log_name = matDest + 'sspget_log.txt'
+    log_name = matDest + 'sspget_log_single_4.txt'
 
     # Get a matrix from the collection
     with open(log_name, 'w') as f:

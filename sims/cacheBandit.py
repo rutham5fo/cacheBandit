@@ -549,15 +549,12 @@ def main():
     """
     Batch run
     """
-    #mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'KM_2000_d100', 'KM_3000_d100', 'KM_4000_d100', 'KM_5000_d100']
-    #dyn_sets = [shmem_sets, vsets, shmem_sets, vsets, vsets, shmem_sets, vsets, shmem_sets, shmem_sets, vsets, shmem_sets, shmem_sets, shmem_sets, shmem_sets, shmem_sets, vsets, vsets, vsets, vsets]
-    mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312']
-    #dyn_sets = [shmem_sets, vsets, shmem_sets, vsets, vsets, shmem_sets, vsets, shmem_sets, shmem_sets, vsets, shmem_sets, shmem_sets, shmem_sets, shmem_sets, shmem_sets]
-    dyn_sets = [vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets]
+    mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1', 'diag', 'crack', 'shock-9', 'big_dual']
+    dyn_sets = [shmem_sets, vsets, shmem_sets, vsets, vsets, shmem_sets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, vsets, shmem_sets, vsets, shmem_sets, shmem_sets, vsets, shmem_sets, vsets]
     """
     Individual run
     """
-    #mat_name = ['bcsstk17']
+    #mat_name = ['sinc15']
     #dyn_sets = [vsets]
 
     # Check if Page_size is greater than 4 * IPC (twice the reclaim size) -> Fast to slow CDC check

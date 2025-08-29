@@ -123,7 +123,7 @@ def main():
     # Run parameters
     run_name = 'cb_test'
     ctxt_path = '.\\context\\'
-    gen_random = 1
+    gen_random = 0
 
     # Load matrix path
     matPath = '.\\spmat\\'
@@ -136,10 +136,21 @@ def main():
         matEnFrames = [1, 1, 1, 1]
         matDtype = np.int8      # Not used by trace/stream generator, choose the smallest possible representation to keep runtime memory requirements small
     else:
-        matName = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312']
-        matRows = [1086, 2003, 10974, 4562, 9278, 9604, 71, 35152, 36417, 3140, 8297, 9877, 10879, 7716, 400727]
-        matCols = [1086, 2003, 10974, 5761, 21534, 9604, 36699, 35152, 36417, 3140, 8297, 9877, 10879, 7716, 400727]
-        matEnFrames = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+        #matName = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312']
+        #matRows = [1086, 2003, 10974, 4562, 9278, 9604, 71, 35152, 36417, 3140, 8297, 9877, 10879, 7716, 400727]
+        #matCols = [1086, 2003, 10974, 5761, 21534, 9604, 36699, 35152, 36417, 3140, 8297, 9877, 10879, 7716, 400727]
+        #matEnFrames = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+        
+        #matName = ['airfoil1', 'diag', 'crack', 'shock-9']
+        #matRows = [4253, 2559, 10240, 36476]
+        #matCols = [4253, 2559, 10240, 36476]
+        #matEnFrames = [1, 1, 1, 1]
+        
+        matName = ['sinc15']
+        matRows = [11532]
+        matCols = [11532]
+        matEnFrames = [1]
+
         matDtype = np.int8      # Not used by trace/stream generator, choose the smallest possible representation to keep runtime memory requirements small
 
     # Check if python is in 64bit version

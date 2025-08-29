@@ -1,0 +1,74 @@
+main ||| ------ CONFIG [2025-08-29 11:49:17.098805] ------
+main ||| virtual_line = 16, virtual_assoc = 4, virtual_sets = 512 | virtual_size = 2048 ; 262144 bytes | SharedMemory_Size = 128, Pages = 4, Page_size = 32
+main ||| Matrix A dim K = 36476, M = 36476, NNZ = 142580, Density = 0.00010716283547529328, Unique frames visited = 2280
+main ||| PE_freq = 400, CacheBandit_freq = 100, IPC = 4 | Stream type = interleavedA
+
+print_stats ||| ------ WARP[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 8386 | mem_ext_hit = 110, mem_int_hit = 8276 | hit_rate = 0.9868829000715478, miss_rate = 0.013117099928452182
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 111, Deallocs_called = 13 | Average Page Utilization = 0.8671875, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[1] STATS BEGIN ------ 
+print_stats ||| Total accesses = 9812 | mem_ext_hit = 67, mem_int_hit = 9745 | hit_rate = 0.9931716265796984, miss_rate = 0.0068283734203016715
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[1] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 67, Deallocs_called = 7 | Average Page Utilization = 0.5234375, Peak Page Utilization = 0.59375
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[2] STATS BEGIN ------ 
+print_stats ||| Total accesses = 34121 | mem_ext_hit = 2181, mem_int_hit = 31940 | hit_rate = 0.9360804196828932, miss_rate = 0.06391958031710676
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[2] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 2179, Deallocs_called = 271 | Average Page Utilization = 1.0, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[3] STATS BEGIN ------ 
+print_stats ||| Total accesses = 8573 | mem_ext_hit = 127, mem_int_hit = 8446 | hit_rate = 0.9851860492243089, miss_rate = 0.014813950775691124
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[3] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 130, Deallocs_called = 15 | Average Page Utilization = 1.0, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 165974 | mem_ext_hits = 2485, mem_int_hits = 163489 | L1 hits = 58407, L2 hits = 105082 | hit_rate = 0.9850277754347067, miss_rate = 0.01497222456529336
+workers_test ||| Average Page Utilization = 0.84765625, Peak Average Page Utilization = 1.0 | Cycles = [117792, 114237, 54892, 118118]
+workers_test ||| ---------- END ---------- 
+
+main ||| -------------------------------------- Baseline Run --------------------------------------
+
+print_stats ||| ------ WARP[0] STATS BEGIN ------ 
+print_stats ||| Total accesses = 10699 | mem_ext_hit = 77, mem_int_hit = 10622 | hit_rate = 0.9928030657070754, miss_rate = 0.007196934292924572
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[0] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 73, Deallocs_called = 8 | Average Page Utilization = 0.5703125, Peak Page Utilization = 0.75
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[1] STATS BEGIN ------ 
+print_stats ||| Total accesses = 9886 | mem_ext_hit = 48, mem_int_hit = 9838 | hit_rate = 0.9951446489985839, miss_rate = 0.004855351001416144
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[1] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 48, Deallocs_called = 5 | Average Page Utilization = 0.375, Peak Page Utilization = 0.5
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[2] STATS BEGIN ------ 
+print_stats ||| Total accesses = 34926 | mem_ext_hit = 2069, mem_int_hit = 32857 | hit_rate = 0.9407604649831072, miss_rate = 0.05923953501689286
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[2] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 128, Deallocs_called = 15 | Average Page Utilization = 1.0, Peak Page Utilization = 1.0
+print_stats ||| ---------- BANDIT END ---------- 
+
+print_stats ||| ------ WARP[3] STATS BEGIN ------ 
+print_stats ||| Total accesses = 10355 | mem_ext_hit = 92, mem_int_hit = 10263 | hit_rate = 0.9911154031868662, miss_rate = 0.008884596813133751
+print_stats ||| ---------- WARP END ----------
+print_stats ||| ------ BANDIT[3] STATS BEGIN ------ 
+print_stats ||| Allocs_called = 85, Deallocs_called = 10 | Average Page Utilization = 0.6640625, Peak Page Utilization = 0.75
+print_stats ||| ---------- BANDIT END ---------- 
+
+
+workers_test ||| ------ CUMMULATIVE STATS BEGIN ------ 
+workers_test ||| Total accesses = 163781 | mem_ext_hits = 2286, mem_int_hits = 161495 | L1 hits = 63580, L2 hits = 97915 | hit_rate = 0.9860423370232201, miss_rate = 0.013957662976779969
+workers_test ||| Average Page Utilization = 0.65234375, Peak Average Page Utilization = 1.0 | Cycles = [110622, 113882, 51693, 112527]
+workers_test ||| ---------- END ---------- 

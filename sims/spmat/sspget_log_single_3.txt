@@ -1,0 +1,2 @@
+main ||| Matrix Deets[0]: Name = big_dual, ID = 2413, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 30269, Cols = 30269, NNZ = 89858, Density = 9.807551592288548e-05 | DataType = binary 
+
