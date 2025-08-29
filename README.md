@@ -35,19 +35,19 @@ Figure 5.: Equivalent simulation block diagram of cacheBandit's python script.
 
 
 ## Setup
-cacheBandit\
-├───docs\
-├───imgs\
-└───sims\
-    ├───context\
-    ├───logs\
-    └───spmat
+cacheBandit  
+├───docs  
+├───imgs  
+└───sims  
+	├───context  
+	├───logs  
+	└───spmat  
 	
 (1) Run [suitsparse.py](sims/stream_gen.py) with appropriate SpM names to download SpMs from the *SuitSparse-Matrix-Collection* into the [spmat](sims/spmat) directory.\
 (2) Run [stream_gen.py](sims/stream_gen.py) to generate CSR streams, *'streamA'* for single worker test, and *'interleavedA'* for multi-worker tests. Generated streams 
 are placed in the [context](sims/context) folder.\
 (3) Run [cacheBandit.py](sims/cacheBandit.py) after setting the appropriate simulation control parameters to obtain logs for corresponding SpM traces. The logs are 
-placed in [logs](sims/logs) folder.\
+placed in [logs](sims/logs) folder.
 
 ### Simulation Control Knobs
 | Knob                           		| Description                                                                   	| Script								|
@@ -94,7 +94,7 @@ Figure 8.: CacheBandit performance for various *Diagonal* matrices (pure and mix
 
 
 It becomes clear that matrices which are **purely diagonal**, i.e., have a high correlation closer to +/-1, tend to suffer from having that additional *Field-of-View*.
-Therefore, we can limit the FOV to 1 for such matrices to mitigate performance loss, while increasing FOV for other matrices whose correlation is below +/-0.8, as shown 
+Therefore, we can limit the FOV to 1 for such matrices to mitigate performance loss, while increasing FOV for other matrices whose correlation lies within +/-0.8, as shown 
 in figure 8. The resulting performance of cacheBandit with dynamic FOV manipulation is shown in figure 9.
 
 ![sim_mutiWarp_DRAM_reduction](imgs/sim_multiWarp_DRAM_reduction.png) \
@@ -102,4 +102,4 @@ Figure 9.: Total DRAM access reduction due to cacheBandit, across various SpM fr
 
 
 
-**P.S.: Work-In-Progress, will be updated as it is built :) . In the meantime, check out this [powerpoint](docs/CacheBandit_ppt.pptx) for more background information.** \
+**P.S.: Work-In-Progress, will be updated as it is built :) . In the meantime, check out this [powerpoint](docs/CacheBandit_ppt.pptx) for more background information.**
