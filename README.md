@@ -39,9 +39,9 @@ cacheBandit
 ├───docs  
 ├───imgs  
 └───sims  
-	├───context  
-	├───logs  
-	└───spmat  
+&nbsp;&nbsp;&nbsp;&nbsp;├───context  
+&nbsp;&nbsp;&nbsp;&nbsp;├───logs  
+&nbsp;&nbsp;&nbsp;&nbsp;└───spmat  
 	
 (1) Run [suitsparse.py](sims/stream_gen.py) with appropriate SpM names to download SpMs from the *SuitSparse-Matrix-Collection* into the [spmat](sims/spmat) directory.\
 (2) Run [stream_gen.py](sims/stream_gen.py) to generate CSR streams, *'streamA'* for single worker test, and *'interleavedA'* for multi-worker tests. Generated streams 
