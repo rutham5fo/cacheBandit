@@ -26,3 +26,25 @@ main ||| Matrix Deets[12]: Name = as-735, ID = 2320, Group = SNAP, Problem Kind 
 
 main ||| Matrix Deets[13]: Name = amazon0312, ID = 2305, Group = SNAP, Problem Kind = directed graph | Rows = 400727, Cols = 400727, NNZ = 3200440, Density = 1.9930237750099465e-05 | DataType = binary 
 
+main ||| Matrix Deets[14]: Name = Chem97ZtZ, ID = 1401, Group = Bates, Problem Kind = statistical/mathematical problem | Rows = 2541, Cols = 2541, NNZ = 7361, Density = 0.0011400594206218335 | DataType = real 
+
+main ||| Matrix Deets[15]: Name = airfoil1, ID = 2411, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 4253, Cols = 4253, NNZ = 24578, Density = 0.001358800739207947 | DataType = binary 
+
+main ||| Matrix Deets[16]: Name = diag, ID = 2428, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 2559, Cols = 2559, NNZ = 8184, Density = 0.0012497554776443576 | DataType = binary 
+
+main ||| Matrix Deets[17]: Name = crack, ID = 2414, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 10240, Cols = 10240, NNZ = 60760, Density = 0.0005794525146484375 | DataType = binary 
+
+main ||| Matrix Deets[18]: Name = shock-9, ID = 2434, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 36476, Cols = 36476, NNZ = 142580, Density = 0.00010716283547529328 | DataType = binary 
+
+main ||| Matrix Deets[19]: Name = big_dual, ID = 2413, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 30269, Cols = 30269, NNZ = 89858, Density = 9.807551592288548e-05 | DataType = binary
+
+main ||| Matrix Deets[20]: Name = sinc15, ID = 921, Group = Hohn, Problem Kind = materials problem | Rows = 11532, Cols = 11532, NNZ = 551184, Density = 0.004144644969271589 | DataType = real 
+
+main ||| Matrix Deets[21]: Name = raefsky1, ID = 814, Group = Simon, Problem Kind = computational fluid dynamics problem sequence | Rows = 3242, Cols = 3242, NNZ = 293409, Density = 0.027915628504807163 | DataType = real
+
+main ||| Matrix Deets[22]: Name = s3rmt3m3, ID = 1611, Group = Cylshell, Problem Kind = structural problem | Rows = 5357, Cols = 5357, NNZ = 207123, Density = 0.007217470793309886 | DataType = real 
+
+main ||| Matrix Deets[23]: Name = poisson3Da, ID = 927, Group = FEMLAB, Problem Kind = computational fluid dynamics problem | Rows = 13514, Cols = 13514, NNZ = 352762, Density = 0.001931585635330921
+
+main ||| Matrix Deets[24]: Name = bcsstk24, ID = 46, Group = HB, Problem Kind = structural problem | Rows = 3562, Cols = 3562, NNZ = 159910, Density = 0.012603402122535554 | DataType = real 
+

@@ -1,2 +1,2 @@
-main ||| Matrix Deets[0]: Name = Chem97ZtZ, ID = 1401, Group = Bates, Problem Kind = statistical/mathematical problem | Rows = 2541, Cols = 2541, NNZ = 7361, Density = 0.0011400594206218335 | DataType = real 
+main ||| Matrix Deets[0]: Name = bcsstk24, ID = 46, Group = HB, Problem Kind = structural problem | Rows = 3562, Cols = 3562, NNZ = 159910, Density = 0.012603402122535554 | DataType = real 
 

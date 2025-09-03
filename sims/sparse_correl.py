@@ -77,9 +77,14 @@ def main():
     # Load matrix path
     matPath = '.\\spmat\\'
 
-    matName = ['bcsstk17', 'shock-9', 'fv1', 'airfoil1', 'diag', 'big_dual', 'Chem97ZtZ', 'crack']
-    matRows = [10974, 36476, 9604, 4253, 2559, 30269, 2541, 10240]
-    matCols = [10974, 36476, 9604, 4253, 2559, 30269, 2541, 10240]
+    #matName = ['bcsstk17', 'shock-9', 'fv1', 'airfoil1', 'diag', 'big_dual', 'Chem97ZtZ', 'crack']
+    #matRows = [10974, 36476, 9604, 4253, 2559, 30269, 2541, 10240]
+    #matCols = [10974, 36476, 9604, 4253, 2559, 30269, 2541, 10240]
+    
+    matName = ['bcsstk24']
+    matRows = [3562]
+    matCols = [3562]
+    
     matDtype = np.float64      # Not used by trace/stream generator, choose the smallest possible representation to keep runtime memory requirements small
 
     # Check if python is in 64bit version

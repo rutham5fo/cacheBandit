@@ -146,9 +146,9 @@ def main():
         #matCols = [4253, 2559, 10240, 36476]
         #matEnFrames = [1, 1, 1, 1]
         
-        matName = ['sinc15']
-        matRows = [11532]
-        matCols = [11532]
+        matName = ['bcsstk24']
+        matRows = [3562]
+        matCols = [3562]
         matEnFrames = [1]
 
         matDtype = np.int8      # Not used by trace/stream generator, choose the smallest possible representation to keep runtime memory requirements small

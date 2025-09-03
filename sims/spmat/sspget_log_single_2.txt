@@ -1,8 +1,0 @@
-main ||| Matrix Deets[0]: Name = airfoil1, ID = 2411, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 4253, Cols = 4253, NNZ = 24578, Density = 0.001358800739207947 | DataType = binary 
-
-main ||| Matrix Deets[1]: Name = diag, ID = 2428, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 2559, Cols = 2559, NNZ = 8184, Density = 0.0012497554776443576 | DataType = binary 
-
-main ||| Matrix Deets[2]: Name = crack, ID = 2414, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 10240, Cols = 10240, NNZ = 60760, Density = 0.0005794525146484375 | DataType = binary 
-
-main ||| Matrix Deets[3]: Name = shock-9, ID = 2434, Group = AG-Monien, Problem Kind = 2D/3D problem | Rows = 36476, Cols = 36476, NNZ = 142580, Density = 0.00010716283547529328 | DataType = binary 
-

@@ -1,2 +1,0 @@
-main ||| Matrix Deets[0]: Name = sinc15, ID = 921, Group = Hohn, Problem Kind = materials problem | Rows = 11532, Cols = 11532, NNZ = 551184, Density = 0.004144644969271589 | DataType = real 
-
