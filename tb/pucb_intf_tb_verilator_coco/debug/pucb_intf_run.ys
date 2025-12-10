@@ -1,0 +1,33 @@
+
+#echo on
+
+# Set verilog defines
+verilog_defines -D SIMLIB_VERILATOR_COMPAT=1
+
+# Read verilog files
+read_verilog ./hdl/*.v
+
+# Elaborate
+hierarchy -chparam PU_CLK_PERIOD 10 -chparam CB_CLK_PERIOD 5 \
+          -chparam ASSOC 4 -chparam SETS 32 \
+          -chparam ADDR_W 32 -chparam DATA_W 32 -chparam PAGE_SIZE 16 \
+          -chparam PIPE_DEP 3 -chparam DEC_DEP 1 -check -simcheck -top pucb_intf
+
+# Synth
+proc
+future
+opt_expr -keepdc
+opt_clean
+check
+opt -noff -keepdc
+wreduce -keepdc
+memory_dff
+opt_clean
+memory_collect
+opt -noff -keepdc -fast
+
+stat
+check
+
+# Write netlist
+write_verilog ./pucb_intf_yosys_synth_netlist.v

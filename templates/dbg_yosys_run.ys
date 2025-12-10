@@ -1,0 +1,33 @@
+
+#echo on
+
+# Set verilog defines
+verilog_defines -D SIMLIB_VERILATOR_COMPAT=1
+
+# Read verilog files
+read_verilog ./hdl/*.v
+
+# Elaborate
+hierarchy -chparam PU_CLK_PERIOD {{ ctxt.dbg_params.PU_CLK_PERIOD }} -chparam CB_CLK_PERIOD {{ ctxt.dbg_params.CB_CLK_PERIOD }} \
+          -chparam ASSOC {{ ctxt.dbg_params.ASSOC }} -chparam SETS {{ ctxt.dbg_params.SETS }} \
+          -chparam ADDR_W {{ ctxt.dbg_params.ADDR_W }} -chparam DATA_W {{ ctxt.dbg_params.DATA_W }} -chparam PAGE_SIZE {{ ctxt.dbg_params.PAGE_SIZE }} \
+          -chparam PIPE_DEP {{ ctxt.dbg_params.PIPE_DEP }} -chparam DEC_DEP {{ ctxt.dbg_params.DEC_DEP }} -check -simcheck -top {{ ctxt.top }}
+
+# Synth
+proc
+future
+opt_expr -keepdc
+opt_clean
+check
+opt -noff -keepdc
+wreduce -keepdc
+memory_dff
+opt_clean
+memory_collect
+opt -noff -keepdc -fast
+
+stat
+check
+
+# Write netlist
+write_verilog ./{{ ctxt.top }}_yosys_synth_netlist.v

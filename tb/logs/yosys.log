@@ -1,0 +1,10 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.58+94 (git sha1 4011d7265, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)
+
+-- Executing script file `/mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/tb/pucb_intf_test_verilator_coco/debug/pucb_intf_run.ys' --
+ERROR: File `./hdl/*.v' not found or is a directory

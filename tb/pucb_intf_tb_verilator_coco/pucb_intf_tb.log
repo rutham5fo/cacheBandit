@@ -1,0 +1,172 @@
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:108  in set_program_name_in_venv        Using Python virtual environment interpreter at /mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/linux_env/bin/python
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Verilator version 5.040 2025-08-30
+     0.00ns INFO     cocotb                             Running tests with cocotb v1.9.2 from /mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/linux_env/lib/python3.12/site-packages/cocotb
+     0.00ns INFO     cocotb                             Seeding Python random module with 1763158160
+     0.00ns INFO     cocotb.regression                  Found test test.pucb_intf_tb.pucb_intf_test
+     0.00ns INFO     cocotb.regression                  running pucb_intf_test (1/1)
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_init" with alias "dbg_pucb_intf_w_field_init"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_init" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_set" with alias "dbg_pucb_intf_w_field_set"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_set" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_atag" with alias "dbg_pucb_intf_w_field_atag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_atag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_wen" with alias "dbg_pucb_intf_w_field_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_wen" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_mshr" with alias "dbg_pucb_intf_w_field_mshr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_mshr" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_miss" with alias "dbg_pucb_intf_w_cb_miss"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_miss" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_consume" with alias "dbg_pucb_intf_w_cb_consume"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_consume" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_cline" with alias "dbg_pucb_intf_w_cb_cline"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_cline" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_ctag" with alias "dbg_pucb_intf_w_cb_ctag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_ctag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_cur_bits" with alias "dbg_pucb_intf_w_cb_lru_cur_bits"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_cur_bits" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_cur" with alias "dbg_pucb_intf_w_cb_lru_cur"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_cur" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_nxt_bits" with alias "dbg_pucb_intf_w_cb_lru_nxt_bits"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_nxt_bits" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_nxt" with alias "dbg_pucb_intf_w_cb_lru_nxt"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_nxt" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_consume_sel" with alias "dbg_pucb_intf_w_cb_consume_sel"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_consume_sel" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_vtp_offset" with alias "dbg_pucb_intf_w_cb_vtp_offset"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_vtp_offset" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_rev_ptr" with alias "dbg_pucb_intf_w_cb_rev_ptr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_rev_ptr" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_rev_ptr_null" with alias "dbg_pucb_intf_w_cb_rev_ptr_null"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_rev_ptr_null" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_table_vtag" with alias "dbg_pucb_intf_w_field_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_table_vtag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_table_wr_data" with alias "dbg_pucb_intf_w_field_table_wr_data"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_table_wr_data" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_lru_ptag" with alias "dbg_pucb_intf_wo_cb_lru_ptag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_lru_ptag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_ctag" with alias "dbg_pucb_intf_wo_cb_ctag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_ctag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_field_table_vtag" with alias "dbg_pucb_intf_wo_field_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_field_table_vtag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_consume" with alias "dbg_pucb_intf_wo_cb_consume"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_consume" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_validity_table_vtag" with alias "dbg_pucb_intf_wo_validity_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_validity_table_vtag" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_validity_table_null" with alias "dbg_pucb_intf_wo_validity_table_null"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_validity_table_null" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_mshr" with alias "o_field_mshr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_mshr" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_addr" with alias "o_field_addr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_addr" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_wen" with alias "o_field_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_wen" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_mem_addr" with alias "o_mem_addr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_mem_addr" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_mem_wen" with alias "o_mem_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_mem_wen" to monitor_active
+     0.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 1
+     0.00ns DEBUG    pucb_intf_tb                       run ||| Collecting scores!
+    10.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 2
+    10.00ns DEBUG    pucb_intf_tb                       run ||| Collecting scores!
+    20.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 3
+    20.00ns DEBUG    pucb_intf_tb                       run ||| Collecting scores!
+    30.00ns DEBUG    pucb_intf_tb                       run ||| Collecting scores!
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[0] ||| iaddr = 0, iaddr_wen = 0, imiss = 0 | oaddr = 0, cb_en = 0
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[0] ||| cb_consume = 0, mem_addr = 0, mem_wen = 0
+    30.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b0 | set_w = 5, set_mask = 0b11111, set_sel = 0b0, atag = 0b0
+    30.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[0], wen[0], mshr_en[0], cb_en[0] -> set_sel = 0, atag = 0
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    30.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[   1], line_mask[   1], line[   1]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   1]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 1
+    30.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[0] in set[0] | lru_line = 0, consume = 0
+    30.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 0, cb_vtp_offset = 0 | page_rd_buffer = [0, 1]
+    30.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[0]
+    30.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 0, cb_update_stg = 0 | dec_flag = 0, update_flag = 0
+    30.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 0, cb_vtp_offsest = 0
+    30.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    30.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[0] = cset[0] cat cline[0]
+    30.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[0] = atag[0] cat ptag[0]
+    30.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    30.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[0], null[1] @ phy_loc[0]
+    30.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || r_field_init = 1
+    30.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[0] = [0, 0, 0]
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[0] ||| dut_scoreboard = {'w_field_init': 1, 'w_field_set': 0, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 0, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 1, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'w_field_table_vtag': 0, 'w_field_table_wr_data': 0, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 0, 'wo_cb_consume': 0, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 1, 'o_field_mshr': 0, 'o_field_addr': 0, 'o_field_wen': 0, 'o_mem_addr': 0, 'o_mem_wen': 0}
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[0] ||| csim_scoreboard = {'w_field_init': 1, 'w_field_set': 0, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 0, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 1, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'w_field_table_vtag': 0, 'w_field_table_wr_data': 0, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 0, 'wo_cb_consume': 0, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 1, 'o_field_mshr': 0, 'o_field_addr': 0, 'o_field_wen': 0, 'o_mem_addr': 0, 'o_mem_wen': 0}
+    30.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 12, wen = 1, mshr = 0
+    40.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x7e126a9d10d0>, coverage=5, size=15 
+    40.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x7e126a9d1190>, coverage=1, size=6 
+    40.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 1
+    40.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x7e126a9d1160>, coverage=1, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 0
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 1
+    40.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x7e126a9d08f0>, coverage=1, size=3 
+    40.00ns INFO     pucb_intf_tb                             BIN low : 1
+    40.00ns INFO     pucb_intf_tb                             BIN med : 0
+    40.00ns INFO     pucb_intf_tb                             BIN high : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x7e126a9d1130>, coverage=1, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 1
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x7e126a9d1100>, coverage=1, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 1
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    40.00ns DEBUG    pucb_intf_tb                       run ||| Collecting scores!
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| iaddr = 12, iaddr_wen = 0, imiss = 1 | oaddr = 12, cb_en = 1
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    40.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b1100 | set_w = 5, set_mask = 0b11111, set_sel = 0b1100, atag = 0b0
+    40.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[12], wen[0], mshr_en[0], cb_en[1] -> set_sel = 12, atag = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    40.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[   1], line_mask[   1], line[   1]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   1]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 1
+    40.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[0] in set[12] | lru_line = 0, consume = 1
+    40.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 0, cb_vtp_offset = 0 | page_rd_buffer = [0, 1]
+    40.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[0]
+    40.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 0, cb_update_stg = 0 | dec_flag = 0, update_flag = 0
+    40.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 0, cb_vtp_offsest = 0
+    40.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    40.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[110000] = cset[1100] cat cline[0]
+    40.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[0] = atag[0] cat ptag[0]
+    40.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    40.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[0], null[1] @ phy_loc[0]
+    40.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || r_field_init = 0
+    40.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[48] = [0, 0, 0]
+    40.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[48], null[0] @ phy_loc[0]
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| dut_scoreboard = {'w_field_init': 0, 'w_field_set': 12, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 0, 'w_cb_cline': 3, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 3, 'w_cb_lru_cur': 1, 'w_cb_lru_nxt_bits': 2, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 1, 'w_cb_vtp_offset': 1, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'w_field_table_vtag': 51, 'w_field_table_wr_data': 0, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 48, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 1, 'o_field_mshr': 1, 'o_field_addr': 12, 'o_field_wen': 0, 'o_mem_addr': 0, 'o_mem_wen': 0}
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| csim_scoreboard = {'w_field_init': 0, 'w_field_set': 12, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 1, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 1, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'w_field_table_vtag': 48, 'w_field_table_wr_data': 0, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 48, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 1, 'o_field_mshr': 0, 'o_field_addr': 0, 'o_field_wen': 0, 'o_mem_addr': 0, 'o_mem_wen': 0}
+    40.00ns INFO     cocotb.regression                  pucb_intf_test failed
+                                                        Traceback (most recent call last):
+                                                          File "/mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/tb/test/pucb_intf_tb.py", line 65, in pucb_intf_test
+                                                            tb.score(dut_scoreboard, csim_scoreboard)
+                                                          File "/mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/tb/test/pucb_intf_utils.py", line 306, in score
+                                                            assert dut_scoreboard[dk].integer == csim_scoreboard[dk], f'Scoreboarding FAILED: dut_score[{dk}] = {dut_scoreboard[dk].integer} ; csim_score[{dk}] = {csim_scoreboard[dk]}'
+                                                        AssertionError: Scoreboarding FAILED: dut_score[w_cb_consume] = 0 ; csim_score[w_cb_consume] = 1
+                                                        assert 0 == 1
+                                                         +  where 0 = 0.integer
+    40.00ns INFO     cocotb.regression                  ******************************************************************************************
+                                                        ** TEST                              STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        ******************************************************************************************
+                                                        ** test.pucb_intf_tb.pucb_intf_test   FAIL          40.00           0.26        155.83  **
+                                                        ******************************************************************************************
+                                                        ** TESTS=1 PASS=0 FAIL=1 SKIP=0                     40.00           3.24         12.34  **
+                                                        ******************************************************************************************
+                                                        
+- :0: Verilog $finish

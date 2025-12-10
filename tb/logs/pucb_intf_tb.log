@@ -1,0 +1,559 @@
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:108  in set_program_name_in_venv        Using Python virtual environment interpreter at /mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/linux_env/bin/python
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Verilator version 5.040 2025-08-30
+     0.00ns INFO     cocotb                             Running tests with cocotb v1.9.2 from /mnt/c/Users/91988/Documents/Amruth/Files/Projects/CacheBandit/linux_env/lib/python3.12/site-packages/cocotb
+     0.00ns INFO     cocotb                             Seeding Python random module with supplied seed 1763308036
+     0.00ns INFO     cocotb.regression                  Found test test.pucb_intf_tb.pucb_intf_test
+     0.00ns INFO     cocotb.regression                  running pucb_intf_test (1/1)
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_stall" with alias "dbg_pucb_intf_w_field_stall"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_stall" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_set" with alias "dbg_pucb_intf_w_field_set"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_set" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_atag" with alias "dbg_pucb_intf_w_field_atag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_atag" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_wen" with alias "dbg_pucb_intf_w_field_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_wen" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_mshr" with alias "dbg_pucb_intf_w_field_mshr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_mshr" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_miss" with alias "dbg_pucb_intf_w_cb_miss"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_miss" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_consume" with alias "dbg_pucb_intf_w_cb_consume"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_consume" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_cline" with alias "dbg_pucb_intf_w_cb_cline"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_cline" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_ctag" with alias "dbg_pucb_intf_w_cb_ctag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_ctag" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_cur_bits" with alias "dbg_pucb_intf_w_cb_lru_cur_bits"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_cur_bits" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_cur" with alias "dbg_pucb_intf_w_cb_lru_cur"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_cur" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_nxt_bits" with alias "dbg_pucb_intf_w_cb_lru_nxt_bits"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_nxt_bits" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_lru_nxt" with alias "dbg_pucb_intf_w_cb_lru_nxt"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_lru_nxt" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_consume_sel" with alias "dbg_pucb_intf_w_cb_consume_sel"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_consume_sel" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_vtp_offset" with alias "dbg_pucb_intf_w_cb_vtp_offset"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_vtp_offset" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_rev_ptr" with alias "dbg_pucb_intf_w_cb_rev_ptr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_rev_ptr" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_cb_rev_ptr_null" with alias "dbg_pucb_intf_w_cb_rev_ptr_null"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_cb_rev_ptr_null" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_table_vtag" with alias "dbg_pucb_intf_w_field_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_table_vtag" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "w_field_table_wr_data" with alias "dbg_pucb_intf_w_field_table_wr_data"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_w_field_table_wr_data" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_lru_ptag" with alias "dbg_pucb_intf_wo_cb_lru_ptag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_lru_ptag" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_ctag" with alias "dbg_pucb_intf_wo_cb_ctag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_ctag" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_field_table_vtag" with alias "dbg_pucb_intf_wo_field_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_field_table_vtag" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_cb_consume" with alias "dbg_pucb_intf_wo_cb_consume"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_cb_consume" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_validity_table_vtag" with alias "dbg_pucb_intf_wo_validity_table_vtag"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_validity_table_vtag" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "wo_validity_table_null" with alias "dbg_pucb_intf_wo_validity_table_null"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.dbg_pucb_intf_wo_validity_table_null" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_mshr" with alias "o_field_mshr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_mshr" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_addr" with alias "o_field_addr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_addr" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_field_wen" with alias "o_field_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_field_wen" to monitor_active negedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_mem_addr" with alias "o_mem_addr"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_mem_addr" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Searching DUT handle for net "o_mem_wen" with alias "o_mem_wen"
+     0.00ns DEBUG    pucb_intf_tb                       __init__ ||| Adding port "pucb_intf.o_mem_wen" to monitor_active posedge
+     0.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [0, 1]
+     0.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 1
+     0.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 2
+     5.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    10.00ns DEBUG    pucb_intf_tb                       reset ||| Rising edge of clock | rst_cnt = 3
+    10.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b0 | set_w = 5, set_mask = 0b11111, set_sel = 0b0, atag = 0b0
+    10.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[0], wen[0], mshr_en[0], cb_en[0] -> set_sel = 0, atag = 0
+    10.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    10.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    10.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    10.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[0] in set[0] | lru_line = 0, consume = 0
+    10.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 0, cb_vtp_offset = 0 | page_rd_buffer = [0, 1]
+    10.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[0]
+    10.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 0, cb_update_stg = 0 | dec_flag = 0, update_flag = 0
+    10.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 0, cb_vtp_offsest = 0
+    10.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    10.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[0] = cset[0] cat cline[0]
+    10.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[0] = atag[0] cat ptag[0]
+    10.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    10.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[0], null[1] @ phy_loc[0]
+    10.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 0, cb_rev_ptr_null = 1, cb_field_vtag = 0, cb_consume = 0
+    10.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[0]: set = 0, line = 0
+    10.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[0] = [0, 0, 0]
+    10.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    10.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    10.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    10.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    10.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [0, 1]
+    10.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=5, size=15 
+    10.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    10.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 1
+    10.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    10.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    10.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    10.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    10.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    10.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=1, size=2 
+    10.00ns INFO     pucb_intf_tb                             BIN 0 : 1
+    10.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    10.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    10.00ns INFO     pucb_intf_tb                             BIN low : 1
+    10.00ns INFO     pucb_intf_tb                             BIN med : 0
+    10.00ns INFO     pucb_intf_tb                             BIN high : 0
+    10.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    10.00ns INFO     pucb_intf_tb                             BIN 0 : 1
+    10.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    10.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    10.00ns INFO     pucb_intf_tb                             BIN 0 : 1
+    10.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    10.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    10.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    10.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 1, 'w_field_set': 0, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 0, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 0, 'w_field_table_vtag': 0, 'w_field_table_wr_data': 0, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 0, 'wo_cb_consume': 0, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 0, 'o_field_mshr': 0, 'o_field_addr': 0, 'o_field_wen': 0}
+    15.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    20.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b0 | set_w = 5, set_mask = 0b11111, set_sel = 0b0, atag = 0b0
+    20.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[0], wen[0], mshr_en[0], cb_en[0] -> set_sel = 0, atag = 0
+    20.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    20.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    20.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    20.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[0] in set[0] | lru_line = 0, consume = 0
+    20.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 0, cb_vtp_offset = 0 | page_rd_buffer = [0, 1]
+    20.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[0]
+    20.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 0, cb_update_stg = 0 | dec_flag = 0, update_flag = 0
+    20.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 0, cb_vtp_offsest = 0
+    20.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    20.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[0] = cset[0] cat cline[0]
+    20.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[0] = atag[0] cat ptag[0]
+    20.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    20.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[0], null[1] @ phy_loc[0]
+    20.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 0, cb_rev_ptr_null = 1, cb_field_vtag = 0, cb_consume = 0
+    20.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[0]: set = 0, line = 0
+    20.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[0] = [0, 0, 0]
+    20.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    20.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    20.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    20.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    20.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [0, 1]
+    20.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=5, size=15 
+    20.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    20.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 2
+    20.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    20.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    20.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    20.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    20.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    20.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=1, size=2 
+    20.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    20.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    20.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    20.00ns INFO     pucb_intf_tb                             BIN low : 2
+    20.00ns INFO     pucb_intf_tb                             BIN med : 0
+    20.00ns INFO     pucb_intf_tb                             BIN high : 0
+    20.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    20.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    20.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    20.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    20.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    20.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    20.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| iaddr = 0, iaddr_wen = 0, imiss = 0 | oaddr = 0, cb_en = 0
+    20.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[1] ||| cb_consume = 0, mem_addr = 0, mem_wen = 0
+    20.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    20.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    20.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 1, 'w_field_set': 0, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 0, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 0, 'w_field_table_vtag': 0, 'w_field_table_wr_data': 0, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 0, 'wo_cb_consume': 0, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 0, 'o_field_mshr': 0, 'o_field_addr': 0, 'o_field_wen': 0}
+    21.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 41, wen = 1, mshr = 0
+    25.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    30.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b101001 | set_w = 5, set_mask = 0b11111, set_sel = 0b1001, atag = 0b1
+    30.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[41], wen[0], mshr_en[0], cb_en[1] -> set_sel = 9, atag = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    30.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    30.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    30.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[1] in set[9] | lru_line = 0, consume = 1
+    30.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 0, cb_vtp_offset = 0 | page_rd_buffer = [0, 1]
+    30.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[0]
+    30.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 0, cb_update_stg = 0 | dec_flag = 0, update_flag = 0
+    30.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 0, cb_vtp_offsest = 0
+    30.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    30.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[100100] = cset[1001] cat cline[0]
+    30.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[10000] = atag[1] cat ptag[0]
+    30.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    30.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[0], null[1] @ phy_loc[0]
+    30.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 0, cb_rev_ptr_null = 1, cb_field_vtag = 36, cb_consume = 1
+    30.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[36]: set = 9, line = 0
+    30.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[36] = [0, 0, 0]
+    30.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | Before: validity_table @ line[0] = 0
+    30.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | After: validity_table @ line[0] = 1
+    30.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[36], null[0] @ phy_loc[0]
+    30.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    30.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[36, 0], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    30.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 1], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    30.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    30.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [0, 1]
+    30.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=6, size=15 
+    30.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    30.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 3
+    30.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    30.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    30.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    30.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    30.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    30.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=2, size=2 
+    30.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    30.00ns INFO     pucb_intf_tb                             BIN 1 : 1
+    30.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    30.00ns INFO     pucb_intf_tb                             BIN low : 3
+    30.00ns INFO     pucb_intf_tb                             BIN med : 0
+    30.00ns INFO     pucb_intf_tb                             BIN high : 0
+    30.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    30.00ns INFO     pucb_intf_tb                             BIN 0 : 3
+    30.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    30.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    30.00ns INFO     pucb_intf_tb                             BIN 0 : 3
+    30.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[2] ||| iaddr = 41, iaddr_wen = 0, imiss = 1 | oaddr = 41, cb_en = 1
+    30.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[2] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    30.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    30.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    30.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 0, 'w_field_set': 9, 'w_field_atag': 1, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 1, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 0, 'w_cb_vtp_offset': 1, 'w_field_table_vtag': 36, 'w_field_table_wr_data': 16, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 0, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 0, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 36, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 0, 'wo_validity_table_null': 1, 'o_field_mshr': 1, 'o_field_addr': 41, 'o_field_wen': 0}
+    31.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 18, wen = 0, mshr = 0
+    35.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    40.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b10010 | set_w = 5, set_mask = 0b11111, set_sel = 0b10010, atag = 0b0
+    40.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[18], wen[0], mshr_en[0], cb_en[1] -> set_sel = 18, atag = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    40.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    40.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    40.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[0] in set[18] | lru_line = 0, consume = 1
+    40.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 1, cb_vtp_offset = 1 | page_rd_buffer = [0, 1]
+    40.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[1]
+    40.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 2, cb_update_stg = 2 | dec_flag = 1, update_flag = 0
+    40.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 1, cb_vtp_offsest = 1
+    40.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 0, insert_ptag = 0
+    40.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[1001000] = cset[10010] cat cline[0]
+    40.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[1] = atag[0] cat ptag[1]
+    40.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    40.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[1], null[1] @ phy_loc[1]
+    40.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 1, cb_rev_ptr_null = 1, cb_field_vtag = 72, cb_consume = 1
+    40.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[72]: set = 18, line = 0
+    40.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[72] = [0, 0, 0]
+    40.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | Before: validity_table @ line[1] = 0
+    40.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | After: validity_table @ line[1] = 1
+    40.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[72], null[0] @ phy_loc[1]
+    40.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    40.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[36, 0], [72, 0], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    40.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 1], [0, 0, 1], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 1, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    40.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    40.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [1, 2]
+    40.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=6, size=15 
+    40.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    40.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 4
+    40.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    40.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=2, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 2
+    40.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    40.00ns INFO     pucb_intf_tb                             BIN low : 4
+    40.00ns INFO     pucb_intf_tb                             BIN med : 0
+    40.00ns INFO     pucb_intf_tb                             BIN high : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 4
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    40.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    40.00ns INFO     pucb_intf_tb                             BIN 0 : 4
+    40.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[3] ||| iaddr = 18, iaddr_wen = 0, imiss = 1 | oaddr = 18, cb_en = 1
+    40.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[3] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    40.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    40.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    40.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 0, 'w_field_set': 18, 'w_field_atag': 0, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 1, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 1, 'w_cb_vtp_offset': 2, 'w_field_table_vtag': 72, 'w_field_table_wr_data': 1, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 1, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 1, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 72, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 1, 'wo_validity_table_null': 1, 'o_field_mshr': 1, 'o_field_addr': 18, 'o_field_wen': 0}
+    41.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 42, wen = 1, mshr = 0
+    45.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    50.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b101010 | set_w = 5, set_mask = 0b11111, set_sel = 0b1010, atag = 0b1
+    50.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[42], wen[0], mshr_en[0], cb_en[1] -> set_sel = 10, atag = 1
+    50.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    50.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    50.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    50.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[1] in set[10] | lru_line = 0, consume = 1
+    50.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 1, cb_vtp_offset = 2 | page_rd_buffer = [1, 2]
+    50.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[2]
+    50.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 6, cb_update_stg = 6 | dec_flag = 1, update_flag = 1
+    50.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 1, cb_vtp_offsest = 2
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 0, dead = 1, consume = 1, insert_ptag = 0
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || old_page = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || ploc[0], vloc[0], consume[1]
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || rot_page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || mask_page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+    50.00ns DEBUG    pucb_intf_tb                       update_page[0] || new_page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+    50.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[101000] = cset[1010] cat cline[0]
+    50.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[10010] = atag[1] cat ptag[10]
+    50.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    50.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[2], null[1] @ phy_loc[2]
+    50.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 2, cb_rev_ptr_null = 1, cb_field_vtag = 40, cb_consume = 1
+    50.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[40]: set = 10, line = 0
+    50.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[40] = [0, 0, 0]
+    50.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | Before: validity_table @ line[2] = 0
+    50.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | After: validity_table @ line[2] = 1
+    50.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[40], null[0] @ phy_loc[2]
+    50.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+    50.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[36, 0], [72, 0], [40, 0], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    50.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 1], [0, 0, 1], [0, 0, 1], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 2, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 1, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    50.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    50.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [2, 3]
+    50.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=6, size=15 
+    50.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    50.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 5
+    50.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    50.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    50.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    50.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    50.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    50.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=2, size=2 
+    50.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    50.00ns INFO     pucb_intf_tb                             BIN 1 : 3
+    50.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    50.00ns INFO     pucb_intf_tb                             BIN low : 5
+    50.00ns INFO     pucb_intf_tb                             BIN med : 0
+    50.00ns INFO     pucb_intf_tb                             BIN high : 0
+    50.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    50.00ns INFO     pucb_intf_tb                             BIN 0 : 5
+    50.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    50.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    50.00ns INFO     pucb_intf_tb                             BIN 0 : 5
+    50.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    50.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[4] ||| iaddr = 42, iaddr_wen = 0, imiss = 1 | oaddr = 42, cb_en = 1
+    50.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[4] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    50.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    50.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    50.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 0, 'w_field_set': 10, 'w_field_atag': 1, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 1, 'w_cb_cline': 0, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 0, 'w_cb_lru_cur': 0, 'w_cb_lru_nxt_bits': 3, 'w_cb_lru_nxt': 2, 'w_cb_consume_sel': 1, 'w_cb_vtp_offset': 2, 'w_field_table_vtag': 40, 'w_field_table_wr_data': 18, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 2, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 2, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 40, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 2, 'wo_validity_table_null': 1, 'o_field_mshr': 1, 'o_field_addr': 42, 'o_field_wen': 0}
+    51.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 41, wen = 0, mshr = 0
+    55.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    60.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b101001 | set_w = 5, set_mask = 0b11111, set_sel = 0b1001, atag = 0b1
+    60.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[41], wen[0], mshr_en[0], cb_en[1] -> set_sel = 9, atag = 1
+    60.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =   11, cur_lru = 2 | wb = 0
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 1
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =  110, flip_en = 0
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[1], line_sel[   1], line_mask[   1], line[   1]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =  110, nxt_lru = 1
+    60.00ns DEBUG    pucb_intf_tb                       check_field || cline = 2, Field_table = [[1, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =   11, cur_lru = 2 | wb = 1
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 1
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =  110, flip_en = 0
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[1], line_sel[   1], line_mask[   1], line[   1]
+    60.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =  110, nxt_lru = 1
+    60.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[1] in set[9] | lru_line = 2, consume = 1
+    60.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 1, cb_vtp_offset = 2 | page_rd_buffer = [2, 3]
+    60.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[3]
+    60.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = e, cb_update_stg = e | dec_flag = 1, update_flag = 1
+    60.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 1, cb_vtp_offsest = 2
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 15, dead = 1, consume = 1, insert_ptag = 0
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || old_page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || ploc[0], vloc[15], consume[1]
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || rot_page = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1]
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || mask_page = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1]
+    60.00ns DEBUG    pucb_intf_tb                       update_page[0] || new_page = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1]
+    60.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[100110] = cset[1001] cat cline[10]
+    60.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[10011] = atag[1] cat ptag[11]
+    60.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    60.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[3], null[1] @ phy_loc[3]
+    60.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 3, cb_rev_ptr_null = 1, cb_field_vtag = 38, cb_consume = 1
+    60.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[38]: set = 9, line = 2
+    60.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[38] = [0, 0, 0]
+    60.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | Before: validity_table @ line[3] = 0
+    60.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | After: validity_table @ line[3] = 1
+    60.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[38], null[0] @ phy_loc[3]
+    60.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1]
+    60.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[36, 0], [72, 0], [40, 0], [38, 0], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    60.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 1], [0, 0, 1], [0, 0, 1], [0, 0, 1]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 0, 0], [0, 0, 0], [1, 3, 0], [0, 0, 0]], [[1, 2, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 1, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    60.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [6, 1], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+    60.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [3, 4]
+    60.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=6, size=15 
+    60.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    60.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 6
+    60.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    60.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    60.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    60.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    60.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    60.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=2, size=2 
+    60.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    60.00ns INFO     pucb_intf_tb                             BIN 1 : 4
+    60.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    60.00ns INFO     pucb_intf_tb                             BIN low : 6
+    60.00ns INFO     pucb_intf_tb                             BIN med : 0
+    60.00ns INFO     pucb_intf_tb                             BIN high : 0
+    60.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    60.00ns INFO     pucb_intf_tb                             BIN 0 : 6
+    60.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    60.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    60.00ns INFO     pucb_intf_tb                             BIN 0 : 6
+    60.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    60.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[5] ||| iaddr = 41, iaddr_wen = 0, imiss = 1 | oaddr = 41, cb_en = 1
+    60.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[5] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    60.00ns DEBUG    pucb_intf_tb                       run ||| Collecting Rising-edge scores!
+    60.00ns DEBUG    pucb_intf_tb                       dut_send ||| Validator recieved dut scores
+    60.00ns DEBUG    pucb_intf_tb                       run ||| dut_score = {'w_field_stall': 0, 'w_field_set': 9, 'w_field_atag': 1, 'w_field_wen': 0, 'w_field_mshr': 0, 'w_cb_miss': 1, 'w_cb_consume': 1, 'w_cb_cline': 2, 'w_cb_ctag': 0, 'w_cb_lru_cur_bits': 3, 'w_cb_lru_cur': 2, 'w_cb_lru_nxt_bits': 2, 'w_cb_lru_nxt': 1, 'w_cb_consume_sel': 1, 'w_cb_vtp_offset': 2, 'w_field_table_vtag': 38, 'w_field_table_wr_data': 19, 'o_mem_addr': 0, 'o_mem_wen': 0, 'w_cb_rev_ptr': 3, 'w_cb_rev_ptr_null': 1, 'wo_cb_lru_ptag': 3, 'wo_cb_ctag': 0, 'wo_field_table_vtag': 38, 'wo_cb_consume': 1, 'wo_validity_table_vtag': 3, 'wo_validity_table_null': 1, 'o_field_mshr': 1, 'o_field_addr': 41, 'o_field_wen': 0}
+    61.00ns INFO     pucb_intf_tb                       Sent Packet: addr = 63, wen = 0, mshr = 0
+    65.00ns DEBUG    pucb_intf_tb                       run ||| Collecting falling-edge scores!
+    70.00ns DEBUG    pucb_intf_tb                       addr_decode[0] || incoming addr = 0b111111 | set_w = 5, set_mask = 0b11111, set_sel = 0b11111, atag = 0b1
+    70.00ns DEBUG    pucb_intf_tb                       run[0] || CHECK_PHASE | Recieved addr[63], wen[0], mshr_en[0], cb_en[1] -> set_sel = 31, atag = 1
+    70.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 0
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    70.00ns DEBUG    pucb_intf_tb                       check_field || cline = 0, Field_table = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru[0] || cur_lru_bitmap =    0, cur_lru = 0 | wb = 1
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =    0, flip_en = 1
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[0], line_sel[  10], line_mask[ -11], line[   0]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[   0]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || bitmap =   11, flip_en = 0
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[0] | cur_bit[1], line_sel[  10], line_mask[  10], line[  10]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru_dfs[0] || STAGE[1] | cur_bit[0], line_sel[   1], line_mask[ -10], line[  10]
+    70.00ns DEBUG    pucb_intf_tb                       field_lru[0] || nxt_lru_bitmap =   11, nxt_lru = 2
+    70.00ns DEBUG    pucb_intf_tb                       check_field || MISS for key[1] in set[31] | lru_line = 0, consume = 1
+    70.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || cb_buffer_sel = 1, cb_vtp_offset = 2 | page_rd_buffer = [3, 4]
+    70.00ns DEBUG    pucb_intf_tb                       consume_buffer[0] || Current solution: phy_loc[4]
+    70.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_dec_stg = 1e, cb_update_stg = 1e | dec_flag = 1, update_flag = 1
+    70.00ns DEBUG    pucb_intf_tb                       controller[0] || cb_consume_sel = 1, cb_vtp_offsest = 2
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || r_cb_page_pipe = [0, 0] | exec_ptag = 0, vloc = 14, dead = 0, consume = 1, insert_ptag = 0
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || old_page = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1]
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || ploc[0], vloc[14], consume[1]
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || rot_page = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2]
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || mask_page = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2]
+    70.00ns DEBUG    pucb_intf_tb                       update_page[0] || new_page = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2]
+    70.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_vtag[1111100] = cset[11111] cat cline[0]
+    70.00ns DEBUG    pucb_intf_tb                       check_phase_end[0] || field_table_wr_data[10100] = atag[1] cat ptag[100]
+    70.00ns DEBUG    pucb_intf_tb                       run[0] || WRITEBACK_PHASE | Writing tables and regs
+    70.00ns DEBUG    pucb_intf_tb                       get_rev_ptr[0] || Got Field_loc[4], null[1] @ phy_loc[4]
+    70.00ns DEBUG    pucb_intf_tb                       gen_validity_table_data[0] || cb_rev_ptr = 4, cb_rev_ptr_null = 1, cb_field_vtag = 124, cb_consume = 1
+    70.00ns DEBUG    pucb_intf_tb                       run || wb_field_vtag[124]: set = 31, line = 0
+    70.00ns DEBUG    pucb_intf_tb                       run || field_table @ line[124] = [0, 0, 0]
+    70.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | Before: validity_table @ line[4] = 0
+    70.00ns DEBUG    pucb_intf_tb                       run || consume = 1 | After: validity_table @ line[4] = 1
+    70.00ns DEBUG    pucb_intf_tb                       put_rev_ptr[0] || Wrote Field_loc[124], null[0] @ phy_loc[4]
+    70.00ns INFO     pucb_intf_tb                       print_internals[0] || page: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2]
+    70.00ns INFO     pucb_intf_tb                       print_internals[0] || rev_ptr: [[36, 0], [72, 0], [40, 0], [38, 0], [124, 0], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1], [12, 1], [13, 1], [14, 1], [15, 1]]
+    70.00ns INFO     pucb_intf_tb                       print_internals[0] || field: [[[0, 0, 1], [0, 0, 1], [0, 0, 1], [0, 0, 1]], [[0, 0, 1], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 0, 0], [0, 0, 0], [1, 3, 0], [0, 0, 0]], [[1, 2, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 1, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], [[1, 4, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+    70.00ns INFO     pucb_intf_tb                       print_internals[0] || flru: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [6, 1], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [3, 2]]
+    70.00ns DEBUG    pucb_intf_tb                       support ||| Supporting: consume_buf = [4, 5]
+    70.00ns INFO     pucb_intf_tb                       top : <cocotb_coverage.coverage.CoverItem object at 0x75416b001310>, coverage=6, size=15 
+    70.00ns INFO     pucb_intf_tb                          top.cross_i_field_addr_wen : <cocotb_coverage.coverage.CoverCross object at 0x75416b001400>, coverage=1, size=6 
+    70.00ns INFO     pucb_intf_tb                             BIN ('low', 0) : 7
+    70.00ns INFO     pucb_intf_tb                             BIN ('low', 1) : 0
+    70.00ns INFO     pucb_intf_tb                             BIN ('med', 0) : 0
+    70.00ns INFO     pucb_intf_tb                             BIN ('med', 1) : 0
+    70.00ns INFO     pucb_intf_tb                             BIN ('high', 0) : 0
+    70.00ns INFO     pucb_intf_tb                             BIN ('high', 1) : 0
+    70.00ns INFO     pucb_intf_tb                          top.i_cb_en : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013d0>, coverage=2, size=2 
+    70.00ns INFO     pucb_intf_tb                             BIN 0 : 2
+    70.00ns INFO     pucb_intf_tb                             BIN 1 : 5
+    70.00ns INFO     pucb_intf_tb                          top.i_field_addr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0012b0>, coverage=1, size=3 
+    70.00ns INFO     pucb_intf_tb                             BIN low : 7
+    70.00ns INFO     pucb_intf_tb                             BIN med : 0
+    70.00ns INFO     pucb_intf_tb                             BIN high : 0
+    70.00ns INFO     pucb_intf_tb                          top.i_field_mshr : <cocotb_coverage.coverage.CoverPoint object at 0x75416b0013a0>, coverage=1, size=2 
+    70.00ns INFO     pucb_intf_tb                             BIN 0 : 7
+    70.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    70.00ns INFO     pucb_intf_tb                          top.i_field_wen : <cocotb_coverage.coverage.CoverPoint object at 0x75416b001370>, coverage=1, size=2 
+    70.00ns INFO     pucb_intf_tb                             BIN 0 : 7
+    70.00ns INFO     pucb_intf_tb                             BIN 1 : 0
+    70.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[6] ||| iaddr = 63, iaddr_wen = 0, imiss = 1 | oaddr = 63, cb_en = 1
+    70.00ns DEBUG    pucb_intf_tb                       pucb_intf_test CYCLE[6] ||| cb_consume = 1, mem_addr = 0, mem_wen = 0
+    70.00ns INFO     cocotb.regression                  pucb_intf_test passed
+    70.00ns INFO     cocotb.regression                  ******************************************************************************************
+                                                        ** TEST                              STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        ******************************************************************************************
+                                                        ** test.pucb_intf_tb.pucb_intf_test   PASS          70.00           0.38        186.29  **
+                                                        ******************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0                     70.00           2.19         31.91  **
+                                                        ******************************************************************************************
+                                                        
+- :0: Verilog $finish

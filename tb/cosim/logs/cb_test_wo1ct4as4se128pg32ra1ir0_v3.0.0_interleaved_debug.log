@@ -1,0 +1,9 @@
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| ------ COSIM CONFIG [0] ------
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| Test Run Knobs: StreamContext = 0, debug_run = 1
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| Test Run Knobs: Increamental run = 0, key = sets, step = 0, max_val = 512
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| CacheBandit info: assoc = 4, field_sets = 128, Full_sets = 32, workers = 1, pages = 4, page_size = 32
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| CacheBandit info: Physical shared memory (among workers) = 128, Virtual shared memory (among workers) = 512
+
+
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se128pg32ra1ir0_v3.0.0_interleaved_debug:_cosim ||| Streaming (type="interleavedA"): Matrix bcsstk10 ==> dim K = 1086, M = 1086, NNZ = 22070, Density = 0.018712968332943305, Unique frames visited = 68

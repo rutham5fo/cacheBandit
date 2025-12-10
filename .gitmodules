@@ -1,0 +1,9 @@
+[submodule "utils/sv2v"]
+	path = utils/sv2v
+	url = https://github.com/zachjs/sv2v.git
+[submodule "verilator"]
+	path = verilator
+	url = https://github.com/verilator/verilator.git
+[submodule "yosys"]
+	path = yosys
+	url = https://github.com/YosysHQ/yosys.git

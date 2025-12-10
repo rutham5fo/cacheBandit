@@ -1,0 +1,601 @@
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ COSIM CONFIG [0] ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Test Run Knobs: StreamContext = 1, debug_run = 0, LLC_en = 0
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Test Run Knobs: Increamental run = 0, key = sets, step = 0, max_val = 2048
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| CacheBandit info: assoc = 4, field_sets = 32, base_sets = 8, workers = 1, pages = 4, page_size = 32
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| CacheBandit info: Physical shared memory (among workers) = 128, Virtual shared memory (among workers) = 128
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix bcsstk10 ==> dim K = 1086, M = 1086, NNZ = 22070, Density = 0.018712968332943305, Unique frames visited = 68
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 22070, hits = 22002, miss = 68 | hit_rate = 0.9969188944268237
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 22070, Hits = 22002, Miss = 68
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9969188944268237, miss_rate = 0.0030811055731763126
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 22070, hits = 22002, miss = 68 | hit_rate = 0.9969188944268237
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 22070, Hits = 22002, Miss = 68
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9969188944268237, miss_rate = 0.0030811055731763126
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10'], reduction = [0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix bcsstk13 ==> dim K = 2003, M = 2003, NNZ = 83883, Density = 0.020907979019987245, Unique frames visited = 126
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 83883, hits = 83752, miss = 131 | hit_rate = 0.9984383009668228
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 83883, Hits = 83752, Miss = 131
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9984383009668228, miss_rate = 0.0015616990331771552
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 83883, hits = 83752, miss = 131 | hit_rate = 0.9984383009668228
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 83883, Hits = 83752, Miss = 131
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9984383009668228, miss_rate = 0.0015616990331771552
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13'], reduction = [0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix bcsstk17 ==> dim K = 10974, M = 10974, NNZ = 428650, Density = 0.0035593682023042418, Unique frames visited = 686
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 428650, hits = 427964, miss = 686 | hit_rate = 0.9983996267350985
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 428650, Hits = 427964, Miss = 686
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9983996267350985, miss_rate = 0.001600373264901478
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 428650, hits = 427964, miss = 686 | hit_rate = 0.9983996267350985
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 428650, Hits = 427964, Miss = 686
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9983996267350985, miss_rate = 0.001600373264901478
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17'], reduction = [0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix c8_mat11 ==> dim K = 4562, M = 5761, NNZ = 2462970, Density = 0.09371432163283917, Unique frames visited = 361
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 2462970, hits = 2297649, miss = 165321 | hit_rate = 0.9328773797488398
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 2462970, Hits = 2297649, Miss = 165321
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9328773797488398, miss_rate = 0.06712262025116023
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 2462970, hits = 2297649, miss = 165321 | hit_rate = 0.9328773797488398
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 2462970, Hits = 2297649, Miss = 165321
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9328773797488398, miss_rate = 0.06712262025116023
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11'], reduction = [0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix cq9 ==> dim K = 9278, M = 21534, NNZ = 96653, Density = 0.00048376702439189244, Unique frames visited = 1346
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 96653, hits = 58919, miss = 37734 | hit_rate = 0.6095930804010222
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 96653, Hits = 58919, Miss = 37734
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.6095930804010222, miss_rate = 0.3904069195989778
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 96653, hits = 58919, miss = 37734 | hit_rate = 0.6095930804010222
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 96653, Hits = 58919, Miss = 37734
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.6095930804010222, miss_rate = 0.3904069195989778
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix fv1 ==> dim K = 9604, M = 9604, NNZ = 85264, Density = 0.0009244031146955463, Unique frames visited = 601
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 85264, hits = 84663, miss = 601 | hit_rate = 0.99295130418465
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 85264, Hits = 84663, Miss = 601
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.99295130418465, miss_rate = 0.007048695815349948
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 85264, hits = 84663, miss = 601 | hit_rate = 0.99295130418465
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 85264, Hits = 84663, Miss = 601
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.99295130418465, miss_rate = 0.007048695815349948
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix kl02 ==> dim K = 71, M = 36699, NNZ = 212536, Density = 0.08156802061997315, Unique frames visited = 2294
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 212536, hits = 175635, miss = 36901 | hit_rate = 0.8263776489629993
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 212536, Hits = 175635, Miss = 36901
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8263776489629993, miss_rate = 0.17362235103700074
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 212536, hits = 175635, miss = 36901 | hit_rate = 0.8263776489629993
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 212536, Hits = 175635, Miss = 36901
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8263776489629993, miss_rate = 0.17362235103700074
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix lhr34c ==> dim K = 35152, M = 35152, NNZ = 764014, Density = 0.0006183028347506603, Unique frames visited = 2197
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 764014, hits = 761327, miss = 2687 | hit_rate = 0.9964830487399445
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 764014, Hits = 761327, Miss = 2687
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9964830487399445, miss_rate = 0.0035169512600554675
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 764014, hits = 761327, miss = 2687 | hit_rate = 0.9964830487399445
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 764014, Hits = 761327, Miss = 2687
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9964830487399445, miss_rate = 0.0035169512600554675
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix pdb1HYS ==> dim K = 36417, M = 36417, NNZ = 4344765, Density = 0.003276106104554356, Unique frames visited = 2277
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 4344765, hits = 4338900, miss = 5865 | hit_rate = 0.9986500996026252
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 4344765, Hits = 4338900, Miss = 5865
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9986500996026252, miss_rate = 0.0013499003973748147
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 4344765, hits = 4338900, miss = 5865 | hit_rate = 0.9986500996026252
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 4344765, Hits = 4338900, Miss = 5865
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9986500996026252, miss_rate = 0.0013499003973748147
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix psmigr_1 ==> dim K = 3140, M = 3140, NNZ = 543160, Density = 0.055089455961702304, Unique frames visited = 197
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 543160, hits = 458273, miss = 84887 | hit_rate = 0.8437164003240297
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 543160, Hits = 458273, Miss = 84887
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8437164003240297, miss_rate = 0.15628359967597028
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 543160, hits = 458273, miss = 84887 | hit_rate = 0.8437164003240297
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 543160, Hits = 458273, Miss = 84887
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8437164003240297, miss_rate = 0.15628359967597028
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix wiki-Vote ==> dim K = 8297, M = 8297, NNZ = 103689, Density = 0.0015062272690078557, Unique frames visited = 506
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 103689, hits = 61247, miss = 42442 | hit_rate = 0.5906798213889612
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 103689, Hits = 61247, Miss = 42442
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.5906798213889612, miss_rate = 0.40932017861103875
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 103689, hits = 61247, miss = 42442 | hit_rate = 0.5906798213889612
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 103689, Hits = 61247, Miss = 42442
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.5906798213889612, miss_rate = 0.40932017861103875
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix ca-HepTh ==> dim K = 9877, M = 9877, NNZ = 51971, Density = 0.0005327346755904551, Unique frames visited = 618
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 51971, hits = 13395, miss = 38576 | hit_rate = 0.25773989340208964
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 51971, Hits = 13395, Miss = 38576
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.25773989340208964, miss_rate = 0.7422601065979104
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 51971, hits = 13395, miss = 38576 | hit_rate = 0.25773989340208964
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 51971, Hits = 13395, Miss = 38576
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.25773989340208964, miss_rate = 0.7422601065979104
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix p2p-Gnutella04 ==> dim K = 10879, M = 10879, NNZ = 39994, Density = 0.0003379223282393842, Unique frames visited = 680
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 39994, hits = 20459, miss = 19535 | hit_rate = 0.511551732759914
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 39994, Hits = 20459, Miss = 19535
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.511551732759914, miss_rate = 0.48844826724008605
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 39994, hits = 20459, miss = 19535 | hit_rate = 0.511551732759914
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 39994, Hits = 20459, Miss = 19535
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.511551732759914, miss_rate = 0.48844826724008605
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix as-735 ==> dim K = 7716, M = 7716, NNZ = 26467, Density = 0.00044454965693740007, Unique frames visited = 478
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 26467, hits = 18341, miss = 8126 | hit_rate = 0.692976158990441
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 26467, Hits = 18341, Miss = 8126
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.692976158990441, miss_rate = 0.30702384100955904
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 26467, hits = 18341, miss = 8126 | hit_rate = 0.692976158990441
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 26467, Hits = 18341, Miss = 8126
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.692976158990441, miss_rate = 0.30702384100955904
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix amazon0312 ==> dim K = 400727, M = 400727, NNZ = 3200440, Density = 1.9930237750099465e-05, Unique frames visited = 0
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 3200440, hits = 1679775, miss = 1520665 | hit_rate = 0.5248575195910562
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 3200440, Hits = 1679775, Miss = 1520665
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.5248575195910562, miss_rate = 0.4751424804089438
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 3200440, hits = 1679775, miss = 1520665 | hit_rate = 0.5248575195910562
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 3200440, Hits = 1679775, Miss = 1520665
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.5248575195910562, miss_rate = 0.4751424804089438
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix Chem97ZtZ ==> dim K = 2541, M = 2541, NNZ = 7361, Density = 0.0011400594206218335, Unique frames visited = 159
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 7361, hits = 7054, miss = 307 | hit_rate = 0.9582937100937373
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 7361, Hits = 7054, Miss = 307
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9582937100937373, miss_rate = 0.041706289906262684
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 7361, hits = 7054, miss = 307 | hit_rate = 0.9582937100937373
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 7361, Hits = 7054, Miss = 307
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9582937100937373, miss_rate = 0.041706289906262684
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix airfoil1 ==> dim K = 4253, M = 4253, NNZ = 24578, Density = 0.001358800739207947, Unique frames visited = 266
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 24578, hits = 24312, miss = 266 | hit_rate = 0.9891773130441859
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 24578, Hits = 24312, Miss = 266
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9891773130441859, miss_rate = 0.01082268695581412
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 24578, hits = 24312, miss = 266 | hit_rate = 0.9891773130441859
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 24578, Hits = 24312, Miss = 266
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9891773130441859, miss_rate = 0.01082268695581412
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix diag ==> dim K = 2559, M = 2559, NNZ = 8184, Density = 0.0012497554776443576, Unique frames visited = 160
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 8184, hits = 8024, miss = 160 | hit_rate = 0.9804496578690127
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 8184, Hits = 8024, Miss = 160
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9804496578690127, miss_rate = 0.019550342130987275
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 8184, hits = 8024, miss = 160 | hit_rate = 0.9804496578690127
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 8184, Hits = 8024, Miss = 160
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9804496578690127, miss_rate = 0.019550342130987275
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1', 'diag'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix crack ==> dim K = 10240, M = 10240, NNZ = 60760, Density = 0.0005794525146484375, Unique frames visited = 640
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 60760, hits = 51106, miss = 9654 | hit_rate = 0.8411125740618828
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 60760, Hits = 51106, Miss = 9654
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8411125740618828, miss_rate = 0.15888742593811722
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 60760, hits = 51106, miss = 9654 | hit_rate = 0.8411125740618828
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 60760, Hits = 51106, Miss = 9654
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.8411125740618828, miss_rate = 0.15888742593811722
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1', 'diag', 'crack'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix shock-9 ==> dim K = 36476, M = 36476, NNZ = 142580, Density = 0.00010716283547529328, Unique frames visited = 2280
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 142580, hits = 140290, miss = 2290 | hit_rate = 0.9839388413522233
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 142580, Hits = 140290, Miss = 2290
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9839388413522233, miss_rate = 0.016061158647776685
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 142580, hits = 140290, miss = 2290 | hit_rate = 0.9839388413522233
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 142580, Hits = 140290, Miss = 2290
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9839388413522233, miss_rate = 0.016061158647776685
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1', 'diag', 'crack', 'shock-9'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| ------ STREAM CONFIG ------
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Streaming (type="streamA"): Matrix big_dual ==> dim K = 30269, M = 30269, NNZ = 89858, Density = 9.807551592288548e-05, Unique frames visited = 1892
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Memory Share Participants (workers/pages participating in memory sharing) = [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| CB INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 4, page_ids = [0, 1, 2, 3]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:cacheBandit_test ||| BASE INIT
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:__init__[0] ||| Bandit Group created with bid = 0, bsize = 1, page_ids = [0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Starting Scheduler | workers = 1, ctxt_id = None
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:scheduler ||| Schedule Complete
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ DUT STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 89858, hits = 87425, miss = 2433 | hit_rate = 0.9729239466714149
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE DUT STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 89858, Hits = 87425, Miss = 2433
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9729239466714149, miss_rate = 0.027076053328585092
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ BASE STATS ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:print_stats[0] || total_access = 89858, hits = 87425, miss = 2433 | hit_rate = 0.9729239466714149
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ------ CUMMULATIVE BASE STATS BEGIN ------ 
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| Total accesses = 89858, Hits = 87425, Miss = 2433
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| hit_rate = 0.9729239466714149, miss_rate = 0.027076053328585092
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| ---------- END ---------- 
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:run_workers ||| DRAM Reduction = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| Summary: mat_name = ['bcsstk10', 'bcsstk13', 'bcsstk17', 'c8_mat11', 'cq9', 'fv1', 'kl02', 'lhr34c', 'pdb1HYS', 'psmigr_1', 'wiki-Vote', 'ca-HepTh', 'p2p-Gnutella04', 'as-735', 'amazon0312', 'Chem97ZtZ', 'airfoil1', 'diag', 'crack', 'shock-9', 'big_dual'], reduction = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| COSIM COMPLETE [0]: Total run time = 16.856532028333337 min | Access Reduction avg. = 0.0
+
+
+INFO:cb_test_wo1ct4as4se32pg32ra1ir0_v3.0.0_stream_run:_cosim ||| BATCH COMPLETE: Total run time = 16.859179355000002 min | Access Reduction avg. = 0.0
+
+
