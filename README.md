@@ -103,3 +103,5 @@ Figure 9.: Total DRAM access reduction due to cacheBandit, across various SpM fr
 
 
 **P.S.: Work-In-Progress, will be updated as it is built :) . In the meantime, check out this [powerpoint](docs/CacheBandit_ppt.pptx) for more background information.**
+
+TODO: Update README to include CocoTB install and related instructions.
