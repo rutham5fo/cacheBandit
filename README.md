@@ -99,9 +99,3 @@ in figure 8. The resulting performance of cacheBandit with dynamic FOV manipulat
 
 ![sim_mutiWarp_DRAM_reduction](imgs/sim_multiWarp_DRAM_reduction.png) \
 Figure 9.: Total DRAM access reduction due to cacheBandit, across various SpM from the suitsparse collection.  
-
-
-
-**P.S.: Work-In-Progress, will be updated as it is built :) . In the meantime, check out this [powerpoint](docs/CacheBandit_ppt.pptx) for more background information.**
-
-TODO: Update README to include CocoTB install and related instructions.
